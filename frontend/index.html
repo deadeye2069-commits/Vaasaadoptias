@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Vaasan Eläinsuoja</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>🐾 Vaasan Eläinsuoja</h1>
+    <p>Löydä uusi paras ystäväsi!</p>
+  </header>
+
+  <main>
+    <section id="home-view">
+      <h2>Adoptoitavat eläimet</h2>
+      <div id="animals-container"></div>
+    </section>
+
+    <section id="details-view" hidden>
+      <button id="back-button" type="button">
+        ← Takaisin eläimiin
+      </button>
+      <div id="animal-details"></div>
+    </section>
+
+    <section id="thank-you-view" hidden>
+      <div class="thank-you">
+        <h2>Hakemuksesi on vastaanotettu!</h2>
+        <p>Kiitos adoptiohakemuksestasi.</p>
+        <p>Otamme sinuun yhteyttä myöhemmin.</p>
+        <button id="home-button" type="button">
+          Takaisin etusivulle
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Vaasan Eläinsuoja ry</p>
+  </footer>
+
+</body>
+</html>

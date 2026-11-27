@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Misu",
+    "type": "Kissa",
+    "age": 2,
+    "breed": "Maatiaiskissa",
+    "description": "Misu on ystävällinen ja leikkisä kissa. Hän rakastaa ihmisten seuraa ja viihtyy rauhallisessa kodissa.",
+    "status": "adopted",
+    "imageUrl": "/images/misu.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Rekku",
+    "type": "Koira",
+    "age": 3,
+    "breed": "Sekarotuinen",
+    "description": "Rekku on energinen ja iloinen koira. Hän rakastaa pitkiä kävelylenkkejä ja leikkimistä.",
+    "imageUrl": "/images/rekku.jpg",
+    "status": "adopted"
+  },
+  {
+    "id": 3,
+    "name": "Luna",
+    "type": "Kissa",
+    "age": 1,
+    "breed": "Maatiaiskissa",
+    "description": "Luna on rauhallinen ja hellyydenkipeä kissa. Hän viihtyy sylissä ja nauttii rapsutuksista.",
+    "imageUrl": "/images/kissa1.png",
+    "status": "available"
+  },
+  {
+    "id": 4,
+    "name": "Bella",
+    "type": "Koira",
+    "age": 4,
+    "breed": "Labradorinnoutaja",
+    "description": "Bella on ystävällinen ja sosiaalinen koira. Hän pitää ulkoilusta ja ihmisten seurasta.",
+    "imageUrl": "/images/koira1.png",
+    "status": "available"
+  }
+]

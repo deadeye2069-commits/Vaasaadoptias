@@ -1,0 +1,20 @@
+services:
+  servera:
+    build: ./serverA
+    ports:
+      - "3000:3000"
+    environment:
+      SERVER_B_URL: http://serverb:3001
+      DATA_DIR: /data
+      FRONTEND_DIR: /frontend
+    volumes:
+      - ./data:/data:ro
+      - ./frontend:/frontend:ro
+    depends_on:
+      - serverb
+  serverb:
+    build: ./serverB
+    environment:
+      DATA_DIR: /data
+    volumes:
+      - ./data:/data
